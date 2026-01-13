@@ -1,0 +1,295 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.start {
+  justify-content: start;
+}
+
+.cstart {
+  align-items: start;
+}
+
+.cend {
+  align-items: end;
+}
+
+.ccenter {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 10px;
+}
+
+.gap-2 {
+  gap: 20px;
+}
+
+.gap-3 {
+  gap: 30px;
+}
+
+.gap-4 {
+  gap: 40px;
+}
+
+.gap-5 {
+  gap: 50px;
+}
+
+.gap-6 {
+  gap: 60px;
+}
+
+.gap-7 {
+  gap: 70px;
+}
+
+.gap-8 {
+  gap: 80px;
+}
+
+.gap-9 {
+  gap: 90px;
+}
+
+.gap-10 {
+  gap: 100px;
+}
+
+header {
+  padding: 30px 100px;
+}
+header .btn1 {
+  background-color: #fff;
+  color: #979A9F;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+header .btn2 {
+  background-color: #ECF4FF;
+  color: #4058FF;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+.main1 {
+  padding: 30px 100px;
+}
+.main1 h1 {
+  font-size: 60px;
+}
+.main1 p {
+  font-size: 24px;
+}
+.main1 button {
+  background-color: #4058FF;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+.main2 {
+  text-align: center;
+}
+.main2 h2 {
+  font-weight: 400;
+}
+.main2 p {
+  color: #121722;
+}
+.main2 button {
+  background-color: #F7F9FF;
+  color: #4058FF;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+.main3 {
+  background-color: #4058FF;
+  margin: 30px 100px;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.main4 {
+  background-color: #F7F9FF;
+  margin: 30px 100px;
+  padding: 20px 30px;
+  color: #121722;
+  border-radius: 10px;
+}
+
+.main5 {
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+.main5 .left {
+  background-color: #fff9f9;
+  padding: 20px 30px;
+  color: #121722;
+  border-radius: 10px;
+  height: 400px;
+}
+.main5 .right {
+  background-color: #fffaf1;
+  padding: 20px 30px;
+  color: #121722;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.main6 {
+  margin: 30px 100px;
+  padding: 20px 30px;
+  background-color: #121722;
+  color: #fff;
+  border-radius: 10px;
+}
+.main6 p {
+  width: 70%;
+}
+
+.main7 {
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+.main7 .left {
+  background-color: #F7F9FF;
+  padding: 20px 30px;
+  color: #121722;
+  border-radius: 10px;
+  height: 420px;
+}
+.main7 .right {
+  background-color: #ECF4FF;
+  padding: 20px 30px;
+  color: #121722;
+  border-radius: 10px;
+  height: 420px;
+}
+
+.main8 {
+  margin: 30px 100px;
+  padding: 20px 30px;
+  background-color: #F1F5FF;
+  border-radius: 10px;
+}
+.main8 .left {
+  width: 40%;
+}
+.main8 .box {
+  background-color: #4058FF;
+  padding: 20px 30px;
+  color: #fff;
+  width: 33%;
+  border-radius: 10px;
+}
+.main8 .box button {
+  background-color: #4058FF;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+.main9 {
+  padding: 30px 150px;
+  margin: 30px 150px;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.main9 .gray {
+  color: #979A9F;
+}
+
+.main10 {
+  background-color: #4058FF;
+  padding: 80px 450px;
+  margin: 30px 100px;
+  color: #fff;
+  border-radius: 10px;
+}
+.main10 button {
+  background-color: #fff;
+  color: #4058FF;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+footer {
+  padding: 30px 100px;
+  margin: 10px 40px;
+}
+footer h3 {
+  font-weight: 300;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  margin: -10px;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin: -10px;
+}
+
+button:hover {
+  background-color: #121722;
+  color: #F7F9FF;
+}/*# sourceMappingURL=style.css.map */

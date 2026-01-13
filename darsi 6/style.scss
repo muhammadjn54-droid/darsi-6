@@ -1,0 +1,150 @@
+ 
+
+.main3 {
+    background-color: $color-1;
+    margin: $padding1;
+    padding: $padding2;
+    color: $color-3;
+    border-radius: 10px;
+}
+
+.main4 {
+    background-color: $color-8;
+    margin: $padding1;
+    padding: $padding2;
+    color: $color-2;
+    border-radius: 10px;
+}
+
+.main5 {
+    padding: $padding1;
+    border-radius: 10px;
+
+    p {
+        font-size: map-get($sizes , s-5);
+    }
+
+    .left {
+        background-color: $color-6;
+        padding: $padding2;
+        color: $color-2;
+        border-radius: 10px;
+        height: 400px;
+    }
+
+    .right {
+        background-color: $color-7;
+        padding: $padding2;
+        color: $color-2;
+        border-radius: 10px;
+        height: 400px;
+    }
+}
+
+.main6 {
+    margin: $padding1;
+    padding: $padding2;
+    background-color: $color-2;
+    color: $color-3;
+    border-radius: 10px;
+
+    p {
+        width: 70%;
+    }
+}
+
+.main7 {
+    padding: $padding1;
+    border-radius: 10px;
+
+    p {
+        font-size: map-get($sizes , s-5);
+    }
+
+    .left {
+        background-color: $color-8;
+        padding: $padding2;
+        color: $color-2;
+        border-radius: 10px;
+        height: 420px;
+    }
+
+    .right {
+        background-color: $color-9;
+        padding: $padding2;
+        color: $color-2;
+        border-radius: 10px;
+        height: 420px;
+    }
+}
+
+.main8 {
+    margin: $padding1;
+    padding: $padding2;
+    background-color: $color-5;
+    border-radius: 10px;
+
+    .left {
+        width: 40%;
+    }
+
+    .box {
+        background-color: $color-1;
+        padding: $padding2;
+        color: $color-3;
+        width: 33%;
+        border-radius: 10px;
+
+        button {
+            @include button($color-1, $color-3);
+        }
+    }
+}
+
+.main9 {
+    padding: $padding4;
+    margin: $padding4;
+    flex-wrap: wrap;
+    width: 60%;
+
+    .gray {
+        color: $color-4;
+    }
+}
+
+.main10 {
+    background-color: $color-1;
+    padding: $padding5;
+    margin: $padding1;
+    color: $color-3;
+    border-radius: 10px;
+
+    button {
+        @include button($color-3, $color-1);
+        margin-left: 80px;
+    }
+}
+
+footer {
+    padding: $padding1;
+    margin: $padding3;
+
+    h3 {
+        font-weight: 300;
+    }
+}
+header {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    margin: -10px;
+   align-items: center;
+   width: 90%;
+   margin: auto;
+   margin: -10px;
+}
+button:hover {
+    background-color: #121722;
+    color: #F7F9FF;
+}
